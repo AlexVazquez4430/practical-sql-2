@@ -20,6 +20,8 @@ CREATE TABLE teachers (
     salary numeric
 );
 
+select current_database();
+
 -- This command will remove (drop) the table.
 -- DROP TABLE teachers;
 
