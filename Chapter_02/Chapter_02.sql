@@ -34,3 +34,8 @@ VALUES ('Janet', 'Smith', 'F.D. Roosevelt HS', '2011-10-30', 36200),
        ('Samantha', 'Bush', 'Myers Middle School', '2011-10-30', 36200),
        ('Betty', 'Diaz', 'Myers Middle School', '2005-08-30', 43500),
        ('Kathleen', 'Roush', 'F.D. Roosevelt HS', '2010-10-22', 38500);
+
+select * from teachers where first_name = 'Janet';
+
+
+
