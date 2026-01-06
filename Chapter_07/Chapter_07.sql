@@ -243,7 +243,7 @@ CREATE TABLE us_counties_pop_est_2010 (
 );
 
 COPY us_counties_pop_est_2010
-FROM 'C:\YourDirectory\us_counties_pop_est_2010.csv'
+FROM '/tmp/us_counties_pop_est_2010.csv'
 WITH (FORMAT CSV, HEADER);
 
 SELECT c2019.county_name,

@@ -1,0 +1,1 @@
+select cast(1 as varchar(2)) as conversion;
